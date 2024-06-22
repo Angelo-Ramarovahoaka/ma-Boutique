@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Votre Panier</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .cart-item {
+            border-bottom: 1px solid #ccc;
+            padding: 10px 0;
+            display: flex;
+            align-items: center;
+        }
+        .cart-item img {
+            width: 50px;
+            height: auto;
+            margin-right: 10px;
+        }
+        .cart-item-details {
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+    <h1>Votre Panier</h1>
+    <div id="cart-items"></div>
+    <p id="cart-total"></p>
+    
+    <script src="./script.js"></script>
+</body>
+</html>

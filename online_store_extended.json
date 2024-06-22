@@ -1,0 +1,356 @@
+{
+    "siteInfo": {
+        "siteName": "Ma Boutique De Vêtements",
+        "siteURL": "https://maboutiquedevetements.com",
+        "description": "Le meilleur endroit pour acheter des vêtements en ligne."
+    },
+    "categories": [
+        {"id": 1, "name": "Hauts", "description": "Tous les types de hauts"},
+        {"id": 2, "name": "Bas", "description": "Pantalons, jupes, etc."},
+        {"id": 3, "name": "Robes", "description": "Robes de toutes sortes"},
+        {"id": 4, "name": "Vestes", "description": "Vestes et manteaux"},
+        {"id": 5, "name": "Accessoires", "description": "Bijoux, sacs, ceintures, etc."},
+        {"id": 6, "name": "Chaussures", "description": "Chaussures pour hommes et femmes"},
+        {"id": 7, "name": "Sous-vêtements", "description": "Lingerie et sous-vêtements"},
+        {"id": 8, "name": "Sportswear", "description": "Vêtements de sport"},
+        {"id": 9, "name": "Maillots de bain", "description": "Maillots de bain pour hommes et femmes"},
+        {"id": 10, "name": "Costumes", "description": "Costumes et tenues de soirée"}
+    ],
+    "products": [
+        {
+            "id": 101,
+            "name": "T-shirt blanc",
+            "description": "Un t-shirt blanc basique en coton.",
+            "price": 19.99,
+            "categoryId": 1,
+            "stock": 100,
+            "image": "./img L3/t-shirt blanc.jfif",
+            "sku": "TSHIRT-001",
+            "attributes": {
+                "size": ["S", "M", "L", "XL"],
+                "color": ["Blanc"]
+            }
+        },
+        {
+            "id": 102,
+            "name": "Jean slim",
+            "description": "Un jean slim bleu confortable.",
+            "price": 49.99,
+            "categoryId": 2,
+            "stock": 50,
+            "image": "./img L3/jean slim 2.jfif",
+            "sku": "JEAN-002",
+            "attributes": {
+                "size": ["28", "30", "32", "34"],
+                "color": ["Bleu"]
+            }
+        },
+        {
+            "id": 103,
+            "name": "Blazer blanc",
+            "description": "Un blazer blanc élégant.",
+            "price": 99.99,
+            "categoryId": 1,
+            "stock": 30,
+            "image": "./img L3/Blazer blanc.jfif",
+            "sku": "BLAZER-003",
+            "attributes": {
+                "size": ["S", "M", "L", "XL"],
+                "color": ["Blanc"]
+            }
+        },
+        {
+            "id": 104,
+            "name": "Chemise noire",
+            "description": "Une chemise noire classique.",
+            "price": 39.99,
+            "categoryId": 1,
+            "stock": 75,
+            "image": "./img L3/Chemise noire.jfif",
+            "sku": "CHEMISE-004",
+            "attributes": {
+                "size": ["S", "M", "L", "XL"],
+                "color": ["Noir"]
+            }
+        },
+        {
+            "id": 105,
+            "name": "Robe blanche",
+            "description": "Une robe blanche élégante.",
+            "price": 79.99,
+            "categoryId": 3,
+            "stock": 40,
+            "image": "./img L3/Robe blanche.jfif",
+            "sku": "ROBE-005",
+            "attributes": {
+                "size": ["S", "M", "L", "XL"],
+                "color": ["Blanc"]
+            }
+        },
+        {
+            "id": 106,
+            "name": "Blazer rose",
+            "description": "Un blazer rose chic.",
+            "price": 89.99,
+            "categoryId": 1,
+            "stock": 20,
+            "image": "./img L3/Blazer rose.jfif",
+            "sku": "BLAZER-006",
+            "attributes": {
+                "size": ["S", "M", "L", "XL"],
+                "color": ["Rose"]
+            }
+        },
+        {
+            "id": 107,
+            "name": "T-shirt noir",
+            "description": "Un t-shirt noir basique.",
+            "price": 19.99,
+            "categoryId": 1,
+            "stock": 80,
+            "image": "./img L3/T-shirt noir.jfif",
+            "sku": "TSHIRT-007",
+            "attributes": {
+                "size": ["S", "M", "L", "XL"],
+                "color": ["Noir"]
+            }
+        },
+        {
+            "id": 108,
+            "name": "Robe rouge",
+            "description": "Une robe rouge élégante.",
+            "price": 59.99,
+            "categoryId": 3,
+            "stock": 60,
+            "image": "./img L3/Robe rouge.png",
+            "sku": "ROBE-008",
+            "attributes": {
+                "size": ["S", "M", "L", "XL"],
+                "color": ["Rouge"]
+            }
+        },
+        {
+            "id": 109,
+            "name": "Veste en cuir",
+            "description": "Une veste en cuir noir.",
+            "price": 199.99,
+            "categoryId": 4,
+            "stock": 15,
+            "image": "./img L3/Veste en cuir.jpg",
+            "sku": "VESTE-009",
+            "attributes": {
+                "size": ["S", "M", "L", "XL"],
+                "color": ["Noir"]
+            }
+        },
+        {
+            "id": 110,
+            "name": "Pantalon de sport",
+            "description": "Un pantalon de sport confortable.",
+            "price": 29.99,
+            "categoryId": 8,
+            "stock": 100,
+            "image": "./img L3/Pantalon de sport.jfif",
+            "sku": "PANTALON-010",
+            "attributes": {
+                "size": ["S", "M", "L", "XL"],
+                "color": ["Noir"]
+            }
+        },
+        {
+            "id": 111,
+            "name": "Chemise bleue",
+            "description": "Une chemise bleue en coton.",
+            "price": 35.99,
+            "categoryId": 1,
+            "stock": 70,
+            "image": "./img L3/Chemise bleue.jfif",
+            "sku": "CHEMISE-011",
+            "attributes": {
+                "size": ["S", "M", "L", "XL"],
+                "color": ["Bleu"]
+            }
+        },
+        {
+            "id": 112,
+            "name": "Jupe plissée",
+            "description": "Une jupe plissée noire élégante.",
+            "price": 45.99,
+            "categoryId": 2,
+            "stock": 50,
+            "image": "./img L3/Jupe plissée.jfif",
+            "sku": "JUPE-012",
+            "attributes": {
+                "size": ["S", "M", "L"],
+                "color": ["Noir"]
+            }
+        },
+        {
+            "id": 113,
+            "name": "Sandales d'été",
+            "description": "Des sandales d'été confortables.",
+            "price": 29.99,
+            "categoryId": 6,
+            "stock": 100,
+            "image": "./img L3/Sandales d'été.jfif",
+            "sku": "SANDALES-013",
+            "attributes": {
+                "size": ["36", "38", "40"],
+                "color": ["Marron"]
+            }
+        },
+        {
+            "id": 114,
+            "name": "Chapeau de paille",
+            "description": "Un chapeau de paille élégant pour l'été.",
+            "price": 19.99,
+            "categoryId": 5,
+            "stock": 200,
+            "image": "./img L3/Chapeau de paille.jfif",
+            "sku": "CHAPEAU-014",
+            "attributes": {
+                "size": ["Taille unique"],
+                "color": ["Beige"]
+            }
+        },
+        {
+            "id": 115,
+            "name": "Maillot de bain une pièce",
+            "description": "Un maillot de bain une pièce élégant.",
+            "price": 49.99,
+            "categoryId": 9,
+            "stock": 80,
+            "image": "./img L3/Maillot de bain une pièce.jfif",
+            "sku": "MAILLOT-015",
+            "attributes": {
+                "size": ["S", "M", "L"],
+                "color": ["Rouge"]
+            }
+        },
+        {
+            "id": 116,
+            "name": "Sweat à capuche",
+            "description": "Un sweat à capuche confortable.",
+            "price": 39.99,
+            "categoryId": 8,
+            "stock": 90,
+            "image": "./img L3/Sweat à capuche.jfif",
+            "sku": "SWEAT-016",
+            "attributes": {
+                "size": ["S", "M", "L", "XL"],
+                "color": ["Noir"]
+            }
+        },
+        {
+            "id": 117,
+            "name": "Costume noir",
+            "description": "Un costume noir élégant.",
+            "price": 199.99,
+            "categoryId": 10,
+            "stock": 20,
+            "image": "./img L3/Costume noir.png",
+            "sku": "COSTUME-017",
+            "attributes": {
+                "size": ["S", "M", "L", "XL"],
+                "color": ["Noir"]
+            }
+        },
+        {
+            "id": 118,
+            "name": "Veste en jean",
+            "description": "Une veste en jean pour un style décontracté.",
+            "price": 69.99,
+            "categoryId": 4,
+            "stock": 50,
+            "image": "./img L3/Veste en jean.jfif",
+            "sku": "VESTE-018",
+            "attributes": {
+                "size": ["S", "M", "L"],
+                "color": ["Bleu"]
+            }
+        },
+        {
+            "id": 119,
+            "name": "Pantalon chino",
+            "description": "Un pantalon chino beige.",
+            "price": 49.99,
+            "categoryId": 2,
+            "stock": 60,
+            "image": "./img L3/Pantalon chino.jfif",
+            "sku": "CHINO-019",
+            "attributes": {
+                "size": ["28", "30", "32", "34"],
+                "color": ["Beige"]
+            }
+        },
+        {
+            "id": 120,
+            "name": "Robe de soirée",
+            "description": "Une robe de soirée élégante et sophistiquée.",
+            "price": 149.99,
+            "categoryId": 3,
+            "stock": 30,
+            "image": "./img L3/Robe de soirée.jpg",
+            "sku": "ROBE-020",
+            "attributes": {
+                "size": ["S", "M", "L"],
+                "color": ["Rouge"]
+            }
+        }
+    ],
+    "users": [
+        {
+            "id": 1,
+            "name": "Alice RAKOTO",
+            "email": "alice@example.com",
+            "address": "123 Alasora, 103 Avaradrano, Madagascar",
+            "purchaseHistory": [
+                {"productId": 101, "date": "2024-05-01", "quantity": 1},
+                {"productId": 103, "date": "2024-06-10", "quantity": 2}
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Martin RASOLO",
+            "email": "bob@example.com",
+            "address": "456 avenue de L'indépendance, 101 Antananarivo, Madagascar",
+            "purchaseHistory": [
+                {"productId": 102, "date": "2024-04-15", "quantity": 2}
+            ]
+        }
+    ],
+    "orders": [
+        {
+            "id": 1,
+            "userId": 1,
+            "products": [
+                {"productId": 101, "quantity": 1, "price": 19.99},
+                {"productId": 102, "quantity": 1, "price": 49.99}
+            ],
+            "date": "2024-06-11",
+            "status": "livrée",
+            "deliveryAddress": "123 Alasora, 103 Avaradrano, Madagascar",
+            "total": 69.98
+        }
+    ],
+    "reviews": [
+        {
+            "id": 1,
+            "productId": 101,
+            "userId": 1,
+            "rating": 5,
+            "comment": "Très bon produit, je recommande!",
+            "date": "2024-06-12"
+        }
+    ],
+    "cart": [
+        {
+            "id": 1,
+            "userId": 1,
+            "products": [
+                {"productId": 101, "quantity": 2},
+                {"productId": 103, "quantity": 1}
+            ]
+        }
+    ]
+}

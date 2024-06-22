@@ -1,0 +1,147 @@
+:root{
+    --color_1:white;
+    --color_2: #dc9999;
+    --color_3: rgb(71, 67, 67);
+    --color_4: rgb(224, 208, 208);
+}
+.A{
+    color: var(--color_3);
+}
+.C:hover{
+    color: var(--color_4);
+    font-size: 1.1rem;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #dc9999;
+    padding: 20px;
+    text-align: center;
+}
+
+#searchInput, #categoryFilter {
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+}
+#product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px;
+
+}
+
+.product {
+    background-color: var(--color_4);
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding-bottom: 10px;
+    width: 300px;
+    text-align: center;
+    color: var(--color_3);
+    overflow: hidden;
+    overflow: calc(1.2);
+}
+.product:hover .image{
+    transform: scale(1.1,1);
+    transition: 1.6s;
+    z-index: -2;
+}
+.here{
+   
+    z-index: 1;
+    overflow: hidden !important;
+}
+.btn1{
+    background-color: var(--color_2);
+    width: 200px;
+    margin: 10px;
+    border: none;
+    padding: 10px;
+    color: var(--color_1);
+    text-decoration: none;
+}
+.btn1:hover{
+    color: var(--color_3);
+}
+/* .product img {
+    width: 100%;
+    height: auto;
+} */
+.image{
+    width: 300px;
+    height: 400px;
+}
+
+.pagination {
+    text-align: center;
+    margin: 20px;
+}
+.page-btn {
+    padding: 10px 20px;
+    margin: 5px;
+   
+}
+.panier{
+    color: var(--color_3);
+    right: 20px;
+    top: 50px;
+}
+.panier:hover{
+    color: var(--color_1);
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+/*ici c'est la details en css */
+#product-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+#product-details img {
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#product-details h2 {
+    margin: 10px 0;
+}
+
+#product-details p {
+    margin: 5px 0;
+}
+
+#product-details .price {
+    font-size: 1.5em;
+    color: #b12704;
+}
+
+#product-details button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 1em;
+}
+.B{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-decoration: none;
+}
+.arrow{
+    padding: 10px;
+}
+.arrow:hover{
+    color: var(--color_1);
+    border-color: var(--color_2) !important;
+}
